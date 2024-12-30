@@ -26,13 +26,13 @@ This program is a simple **Student Records Management System** written in C. It 
 ### Compile the Program
 Use `gcc` to compile the program:
 ```bash
-gcc -o student_records student_records.c
+gcc -o main main.c
 ```
 
 ### Run the Program
 Run the compiled program:
 ```bash
-./student_records
+./main
 ```
 
 ### Menu Options
@@ -46,7 +46,6 @@ Run the compiled program:
 ### File Format
 The program uses a simple CSV-like format for storing records:
 ```
-Name, ID, GPA
 John Doe, 123, 3.5
 Jane Smith, 456, 3.8
 ```
